@@ -266,6 +266,37 @@ input[type="submit"] {
 
 /* Media Queries */
 
+@media screen and (max-width: 960px) {
+  .header {
+    width: 95%;
+    position: relative;
+    background-color: white;
+  }
+
+  .mainDescription {
+    box-sizing: border-box;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    padding: 0px 10px 10px;
+  }
+
+  .portfolioImagesWithWords {
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    margin: 0px 10px 20px 25px;
+  }
+
+  .portfolioImages {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .header {
     width: 95%;
@@ -290,18 +321,6 @@ input[type="submit"] {
     margin-right: auto;
   }
 
-  .portfolioImagesWithWords {
-    display: inline-block;
-    position: relative;
-    width: 40%;
-    margin: 0px 10px 20px 25px;
-  }
-
-  .portfolioImages {
-    height: 300px;
-    width: 100%;
-    object-fit: cover;
-  }
   /* remember submit button!!! */
   /* remember to get rid of hovering images/make them smaller */
 }
