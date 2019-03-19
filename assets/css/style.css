@@ -215,7 +215,7 @@ Portfolio
 .portfolioImagesWithWords {
   display: inline-block;
   position: relative;
-  margin: 0px 10px 20px 10px;
+  margin: 0px 10px 0px 10px;
 }
 
 .portfolioContainer {
@@ -231,11 +231,19 @@ Portfolio
   font-size: 30px;
   color: white;
   width: 100%;
-  bottom: 0px;
+  bottom: 20px;
   z-index: 5;
   text-align: center;
   margin-bottom: 20px;
   padding: 0px;
+}
+
+.githubLink {
+  text-align: center;
+  /* width: 40%; */
+  margin-top: 5px;
+  margin-bottom: 15px;
+  display: block;
 }
 /* Contact Page*/
 
